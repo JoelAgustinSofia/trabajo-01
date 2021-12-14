@@ -1,0 +1,44 @@
+.conocenos__parrafo {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+
+.conocenos__titulo {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.conocenos {
+  background: #fff9ed;
+}
+
+h1 {
+  font: 2.5rem;
+}
+
+h2 {
+  font: 1.25rem;
+}
+
+h3 {
+  font: 0.83333rem;
+}
+
+h4 {
+  font: 0.625rem;
+}
+
+h5 {
+  font: 0.5rem;
+}
+
+h6 {
+  font: 0.41667rem;
+}
+
+.section__jumbotron {
+  background-image: url(../imagenes/64304-barberia.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/*# sourceMappingURL=estilos.css.map */

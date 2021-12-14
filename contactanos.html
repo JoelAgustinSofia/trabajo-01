@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="barba, whatsapp, Instagram, Facebook">
+    <title>Formulario</title>
+    <meta name="description" content="navajas">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="scss/estilos.css">
+</head>
+<body>
+    <header>
+        <h1>Formulario</h1>
+        <nav>
+            <a href="index.html" class="text-decoration-none btn btn-outline-dark">Inicio</a>
+            <a href="productos.html" class="text-decoration-none btn btn-outline-dark">Productos</a>          
+            <a href="conocenos.html" class="text-decoration-none btn btn-outline-dark">Preguntas Frecuentes</a>
+            <a href="contactanos.html" class="text-decoration-none btn btn-outline-dark">Contactanos</a>
+            <a href="clientes.html" class="text-decoration-none btn btn-outline-dark">Promociones</a>
+    </nav>
+    </header>
+    
+    <hr>
+    <main>
+        <form action="">
+            <fieldset>
+                <legend><b>Formulario</b></legend>
+                <label for="nombre y apellido"> Nombre y Apellido: </label>
+                <input type="text" name="nombre y apellido"><br>
+                <label for="pais">Paises:</label>
+                <select name="Pais" >
+                    <option value="">Seleccione</option>
+                    <option value="Ar"> Argentina</option>
+                    <option value="Cl"> Chile</option>
+                    <option value="Bl"> Bolivia</option>
+                    <option value="Pr"> Paraguay</option>
+                    <option value="Ur"> Uruguay</option>
+                </select><br>
+                <label for="correo"> Correo: </label>
+                <input type="email" name="correo"><br>
+                <label for="contraseña"> Contraseña: </label>
+                <input type="password" name="contraseña"><br>
+                <label for="comentario"> Comentarios: </label><br>
+                <textarea name="comentario"  cols="30" rows="10"></textarea>
+            </fieldset>
+            <fieldset>
+                
+                <legend><b>Selecciones de generos</b></legend>
+                <div>Hombre</div>
+                <input type="radio" name="genero" value="Hombre">
+                <div>Mujer</div>
+                <input type="radio" name="genero" value="Mujer">
+                <div>No Binario</div>
+                <input type="radio" name="genero" value="No Binario">
+    
+            </fieldset>
+            <fieldset>           
+                <legend><b>Checkbox</b></legend>
+                <div><b>Acepta terminos y condiciones</b></div>
+                <input type="checkbox" name="acepta" value="1">
+            </fieldset>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Resetear">
+        </form>
+    </main>
+    <footer>
+        <div>
+            <h3>Categorias</h3>
+            <a href="index.html" class="text-decoration-none btn btn-outline-dark">Inicio</a>
+            <a href="productos.html" class="text-decoration-none btn btn-outline-dark">Productos</a>          
+            <a href="conocenos.html" class="text-decoration-none btn btn-outline-dark">Preguntas Frecuentes</a>
+            <a href="contactanos.html" class="text-decoration-none btn btn-outline-dark">Contactanos</a>
+            <a href="clientes.html" class="text-decoration-none btn btn-outline-dark">Promociones</a>
+        </div>
+        <div>
+            <h3 >Contactanos</h3>
+        </div>
+        <div>
+            <h3>Siganos en nuestras redes</h3>
+        </div>
+    </footer> 
+    <script src="js/bootstrap.js">
+    </script>
+</body>
+</html>

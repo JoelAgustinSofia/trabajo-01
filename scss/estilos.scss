@@ -1,0 +1,17 @@
+@import"bem";
+
+@for $titulo from 1 through 6 {
+
+    h#{$titulo} { 
+        font: 2.5rem / $titulo;
+    }
+}
+     //MAPS con each
+
+
+.section__jumbotron {background-image: url(../imagenes/64304-barberia.jpg) ;
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+}
