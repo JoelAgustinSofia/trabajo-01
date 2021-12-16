@@ -9,7 +9,7 @@
 }
 
 .conocenos {
-  background: #fff9ed;
+  background: #d8d8d8;
 }
 
 h1 {
@@ -36,9 +36,44 @@ h6 {
   font: 0.41667rem;
 }
 
+.boton-inicio {
+  background-color: #cacaca;
+  color: black;
+  text-decoration: none;
+}
+
+.boton-productos {
+  background-color: #4d68b3;
+  color: black;
+  text-decoration: none;
+}
+
+.boton-preguntas {
+  background-color: #77a6b9;
+  color: black;
+  text-decoration: none;
+}
+
+.boton-contactanos {
+  background-color: #a7a7a7;
+  color: black;
+  text-decoration: none;
+}
+
+.boton-promociones {
+  background-color: #6b79c5;
+  color: black;
+  text-decoration: none;
+}
+
 .section__jumbotron {
   background-image: url(../imagenes/64304-barberia.jpg);
   background-repeat: no-repeat;
   background-position: center;
+}
+
+main section div h2 {
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
 }
 /*# sourceMappingURL=estilos.css.map */

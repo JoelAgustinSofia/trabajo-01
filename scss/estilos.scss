@@ -7,11 +7,34 @@
     }
 }
      //MAPS con each
-
+     $botones: (
+        inicio: #cacaca,
+        productos: #4d68b3,
+        preguntas: #77a6b9,
+        contactanos: #a7a7a7,
+        promociones: #6b79c5,
+    );
+    @each $nombre, $boton in $botones {
+        .boton-#{$nombre} {
+            background-color: $boton;
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+        }
+    }
 
 .section__jumbotron {background-image: url(../imagenes/64304-barberia.jpg) ;
     background-repeat: no-repeat;
     background-position: center;
 
+}
 
+main{
+    section{
+            div{
+                h2{font-size: large;
+                font-family: Arial, Helvetica, sans-serif;
+
+        }   
+    }
+}
 }
